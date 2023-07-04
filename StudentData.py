@@ -13,5 +13,5 @@ df2=pd.DataFrame(dict2)
 
 print(df1,df2)
 
-df3=pd.merge(df1,df2,how="inner",on="ID")
+df3=pd.merge(df1,df2,how="outer",on="ID")
 print(df3)
